@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 70%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    font-family: 'Cinzel', serif;
+    color: rgb(215, 175, 75);
+    background-color: rgb(25, 25, 35);
+}
+
+.title{
+    margin: 2.5rem;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 25%;
+    margin-top: 40vh;
+    transform: translateY(-50%);
+    background-color: #fff;
+}
+
+.div {
+    margin: 3rem;
+    margin-bottom: 0%;
+    font-size: 2.5rem;
+    color: rgb(25, 25, 35);
+}
+
+.div:not(:first-child) {
+    margin-bottom: 3rem;
+}
