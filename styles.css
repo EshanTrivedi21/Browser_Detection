@@ -5,15 +5,16 @@
 
 body {
     display: grid;
-    height: 100vh;
-    font-family: 'Cinzel', serif;
+    height: 90vh;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #353941;
     place-items: center;
+    padding: 7.5%;
     box-sizing: border-box;
 }
 
 div{
-    padding: 17.5px;
+    padding: 12.5px;
     color: #26282b;
     font-weight: 600;
 }
@@ -25,8 +26,8 @@ span{
 
 .container {
     background-color: #90b8f8;
-    padding: 22.5px;
+    padding: 25px 10px;
     box-shadow: 5px 7.5px 25px rgb(0,0,0,0.5);
     border-radius: 5px;
-    font-size: 1.4rem;
+    font-size: 1.25rem;
 }
